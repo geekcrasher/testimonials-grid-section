@@ -45,7 +45,7 @@ body {
 
 .daniel {
     grid-area: daniel;
-    background: url(/images/bg-pattern-quotation.svg) no-repeat 82% top var(--moderate-violet);
+    background: url(./images/bg-pattern-quotation.svg) no-repeat 82% top var(--moderate-violet);
 }
 .jonathan {
     grid-area: jonathan;
