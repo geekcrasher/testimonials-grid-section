@@ -114,7 +114,8 @@ article .dgb-headline {
 /** STYLE FOR THE STATEMENTS */
 article p, 
 article blockquote {
-    font-size: 0.8rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.813rem;
     font-weight: 600;
     line-height: 1.5;
     opacity: 70%;
@@ -148,7 +149,8 @@ article blockquote {
 }
 /** for laptops */
 @media screen and (max-width: 847px) {
-    article p, article blockquote {
+    article p, 
+    article blockquote {
         line-height: 1.6;
         font-size: 0.9rem;
     }
@@ -156,7 +158,8 @@ article blockquote {
 
 /** for small tablets */
 @media screen and (max-width: 793px) {
-    article p {
+    article p,
+    article blockquote {
         font-size: 0.9rem;
     }
 }
@@ -173,7 +176,8 @@ article blockquote {
             "patrick"
             "kira";
     }
-    article p, article blockquote {
+    article p, 
+    article blockquote {
         font-size: 0.9rem;
     }
 }
