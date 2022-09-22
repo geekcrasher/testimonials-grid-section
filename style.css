@@ -114,10 +114,7 @@ article .dgb-headline {
 /** STYLE FOR THE STATEMENTS */
 article p, 
 article blockquote {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 0.813rem;
-    font-weight: 600;
-    line-height: 1.5;
+    font: 600 0.813rem/1.5 'Barlow Semi Condensed', sans-serif;
     opacity: 70%;
 }
 .daniel .statement { 
