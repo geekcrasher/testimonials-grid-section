@@ -112,7 +112,8 @@ article .dgb-headline {
 }
 
 /** STYLE FOR THE STATEMENTS */
-article p {
+article p, 
+article blockquote {
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.5;
@@ -147,7 +148,7 @@ article p {
 }
 /** for laptops */
 @media screen and (max-width: 847px) {
-    article p {
+    article p, article blockquote {
         line-height: 1.6;
         font-size: 0.9rem;
     }
@@ -172,7 +173,7 @@ article p {
             "patrick"
             "kira";
     }
-    article p {
+    article p, article blockquote {
         font-size: 0.9rem;
     }
 }
